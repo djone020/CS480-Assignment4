@@ -83,7 +83,6 @@ def evaluate_window(window, piece):
         score -= 84
     return score
 
-# I may change this to count_position
 def score_position(board, piece):
     score = 0
 
